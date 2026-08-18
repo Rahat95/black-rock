@@ -1,0 +1,28 @@
+# User-agent directives for general search engines
+User-agent: *
+Allow: /
+
+# User-agent directives for AI Crawlers & LLM Scrapers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+# Location of Sitemap and LLM context files
+Sitemap: https://black-rock-aggregates.vercel.app/sitemap.xml
